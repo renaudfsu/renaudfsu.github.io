@@ -1,0 +1,272 @@
+<!-- HTML - JAVASCRIPT : RESPONSIVE SAMPLE WEB SITE  -->
+<!-- COPYRIGHT RENAUD RESPONSIVE PROJECT  -->
+
+<!-- Tutoriel complet : https://youtu.be/enBAFo2kEfE?t=21 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive website</title>
+</head>
+
+<body>
+
+    <!-- MENU -->
+
+    <header>
+        <a href="#" class="logo">Responsive<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li><a href="#opinion" onclick="toggleMenu();">Opinion</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- HEADER -->
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur obcaecati esse quaerat iste totam
+                molestias dolor ducimus reiciendis ipsa delectus, iusto minima, alias voluptatibus magnam nostrum eos,
+                quod ut illum!</p>
+            <a href="#menu" class="btn">Our Menu</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illum quaerat, nostrum in quod
+                    iusto, accusamus obcaecati, quisquam porro magnam explicabo dolor illo quas et ex laboriosam eius
+                    quidem ipsum voluptate tempora? Molestias neque quos molestiae iusto corporis! Sapiente at rerum
+                    iste sequi iure nisi nihil architecto ea adipisci ex labore maiores sit magnam praesentium amet
+                    possimus dignissimos beatae nobis et ipsa ipsam, necessitatibus exercitationem. Illum esse cum,
+                    architecto impedit iste, eius quos nostrum veritatis excepturi odit suscipit distinctio maxime
+                    ratione nihil ut totam eaque, eveniet maiores. Laboriosam tenetur explicabo beatae assumenda
+                    temporibus repellat accusantium expedita soluta ipsa? Dignissimos explicabo minima maiores magnam,
+                    cum harum fugiat sed eveniet excepturi? Possimus eum ea sunt perferendis illum eius quam. Molestiae
+                    quidem a quisquam sit vero deleniti eaque, atque laudantium adipisci nulla nemo eos explicabo porro,
+                    cum harum excepturi? Autem voluptate perferendis magni quos cupiditate quibusdam dolorum quis sequi,
+                    quas sit corrupti id magnam ab? Velit veniam libero quia maiores recusandae perspiciatis quis
+                    blanditiis nisi ipsa corrupti obcaecati eligendi cum cupiditate id quibusdam totam, sint quas
+                    distinctio? Quaerat, asperiores animi voluptatibus officiis consequatur repellat accusantium ducimus
+                    soluta, assumenda porro quasi totam similique vitae nam, mollitia suscipit! Pariatur, rerum? Sed,
+                    nobis! Quia, recusandae consectetur.</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="img/img1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRESENTATION PRODUITS -->
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText">Our <span>M</span>enu</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, accusantium.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/box1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Box 1</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/box2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Box 2</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/box3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Box 3</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/box4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Box 4</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/box5.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Box 5</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/box6.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Box 6</h3>
+                </div>
+            </div>
+            <div class="title">
+                <a href="#" class="btn">View All</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRESENTATION STAFF -->
+
+    <section class="expert" id="expert">
+        <div class="title">
+            <h2 class="titleText">Our Favorite <span>E</span>xpert</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, accusantium.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/expert1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/expert2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/expert3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/expert4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AVIS CLIENT -->
+
+    <section class="opinion" id="opinion">
+        <div class="title white">
+            <h2 class="titleText">They <span>S</span>aid About Us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, accusantium.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/opinion1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat doloribus voluptates nostrum
+                        incidunt repellendus totam fugiat quibusdam voluptas, minus est corporis deserunt optio
+                        exercitationem consequatur quia autem. Rem labore, repellat earum natus quia quis error! Cumque
+                        dolore sapiente temporibus velit?</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/opinion2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat doloribus voluptates nostrum
+                        incidunt repellendus totam fugiat quibusdam voluptas, minus est corporis deserunt optio
+                        exercitationem consequatur quia autem. Rem labore, repellat earum natus quia quis error! Cumque
+                        dolore sapiente temporibus velit?</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/opinion3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat doloribus voluptates nostrum
+                        incidunt repellendus totam fugiat quibusdam voluptas, minus est corporis deserunt optio
+                        exercitationem consequatur quia autem. Rem labore, repellat earum natus quia quis error! Cumque
+                        dolore sapiente temporibus velit?</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMUAIRE DE CONTACT -->
+
+    <section class="contact" id="contact">
+        <div class="title white">
+            <h2 class="titleText"><span>C</span>ontact Us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, accusantium.</p>
+        </div>
+        <!-- Formulaire -->
+        <form action="" method="POST" class="contactForm" id="contactForm">
+            <h3>Envoyer un message</h3>
+            <!-- Username -->
+            <div class="inputBox">
+                <input type="text" class="controlForm" name="username" id="username" placeholder="Username">
+                <small></small>
+            </div>
+            <!-- Email -->
+            <div class="inputBox">
+                <input type="text" class="controlForm" name="email" id="email" placeholder="Email">
+                <small></small>
+            </div>
+            <!-- Message -->
+            <div class="inputBox">
+                <textarea name="message" id="message" rows="5" placeholder="Votre message..."></textarea>
+            </div>
+            <!-- Submit -->
+            <div class="inputBox">
+                <input type="submit" value="Envoyez">
+            </div>
+    </section>
+
+    <!-- COPYRIGHT -->
+
+    <div class="copyrightText">
+        <p>Copyright 2022 <a href="#">Renaud Responsive Project</a>. All Right Reserved</p>
+    </div>
+
+    <!-- JAVASCRIPT -->
+
+    <script type="text/javascript" src="script.js">
+
+    </script>
+
+</body>
+</html>
